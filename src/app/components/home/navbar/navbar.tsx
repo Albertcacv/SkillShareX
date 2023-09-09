@@ -13,7 +13,7 @@ const Navbar = () => {
 					<li className={styles.navItem}>FAQ</li>
 				</ul>
 
-				<StartedButton />
+				<StartedButton href='/session/register' />
 			</nav>
 		</header>
 	);

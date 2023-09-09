@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.register {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid rgba(177, 173, 173, 0.315);
+	border-radius: 18px;
+	padding: 10px;
+	color: var(--white);
+	width: 50%;
+}
+
+.info {
+	background-color: var(--blue);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px;
+	border-radius: 15px;
+	max-width: 50%;
+}
+
+.infoTitle {
+	margin: 2rem 0;
+}
+
+.infoDescription {
+	margin-bottom: 2rem;
+}
+.formContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
+.form {
+	width: 100%;
+}
